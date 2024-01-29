@@ -1,0 +1,25 @@
+Fountain of Objects has 2 states:
+    enabled
+    disabled
+    
+Room has:
+    Row
+    Column
+
+There are commands that increase 
+Row or Column and change the room
+that the player is in
+
+Two-dimensional arrays to make the
+game world?
+
+There is a pit that the player
+can fall into
+
+Add a game manager with predefined
+rooms
+
+A loop to generate 4x4 grid
+
+Use inheritance to create special rooms and assign them
+after the grid is generated

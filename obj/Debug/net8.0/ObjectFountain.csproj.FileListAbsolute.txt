@@ -1,0 +1,14 @@
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/bin/Debug/net8.0/ObjectFountain
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/bin/Debug/net8.0/ObjectFountain.deps.json
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/bin/Debug/net8.0/ObjectFountain.runtimeconfig.json
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/bin/Debug/net8.0/ObjectFountain.dll
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/bin/Debug/net8.0/ObjectFountain.pdb
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.AssemblyInfoInputs.cache
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.AssemblyInfo.cs
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.csproj.CoreCompileInputs.cache
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.dll
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/refint/ObjectFountain.dll
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.pdb
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.genruntimeconfig.cache
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ref/ObjectFountain.dll
