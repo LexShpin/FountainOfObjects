@@ -12,3 +12,4 @@
 /Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.pdb
 /Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.genruntimeconfig.cache
 /Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ref/ObjectFountain.dll
+/Users/alexandershpin/Desktop/C#/ObjectFountain/ObjectFountain/obj/Debug/net8.0/ObjectFountain.sourcelink.json
