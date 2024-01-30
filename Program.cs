@@ -38,12 +38,16 @@ while (true)
 int currentRow = 0;
 int currentColumn = 0;
 Room currentRoom = null;
+DateTime gameStart = DateTime.Now;
 
 while (true)
 {
   if (currentRoom is PitRoom)
   {
     Console.WriteLine("You fell into a pit! Game over.");
+    DateTime gameFinish = DateTime.Now;
+    TimeSpan gameTime = gameFinish - gameStart;
+    Console.WriteLine($"You've spent {gameTime.Minutes}m {gameTime.Seconds}s in the cavern");
     break;
   }
   
@@ -51,6 +55,9 @@ while (true)
   
   if (currentRoom is EntranceRoom && Fountain.IsActivated)
   {
+    DateTime gameFinish = DateTime.Now;
+    TimeSpan gameTime = gameFinish - gameStart;
+    Console.WriteLine($"You've spent {gameTime.Minutes}m {gameTime.Seconds}s in the cavern");
     break;
   }
   
@@ -187,16 +194,6 @@ void HandleMediumGridPits()
 {
   HandleSmallGridPit();
   
-  // Pit: Row - 4, Column - 3
-  // Row 3, Column 2
-  // Row 3, Column 3
-  // Row 3, Column 4
-  // Row 4, Column 4
-  // Row 5, Column 4
-  // Row 5, Column 3
-  // Row 5, Column 2
-  // Row 4, Column 2
-  
   if (currentRow == 3 && currentColumn == 2)
     PitRoom.ShowRoomMessage();
   
@@ -220,9 +217,6 @@ void HandleMediumGridPits()
   
   if (currentRow == 5 && currentColumn == 4)
     PitRoom.ShowRoomMessage();
-  
-  if (currentRow == 4 && currentColumn == 3)
-    Console.WriteLine("you ded");
 }
 
 void HandleLargeGridPits()
@@ -253,7 +247,4 @@ void HandleLargeGridPits()
   
   if (currentRow == 7 && currentColumn == 7)
     PitRoom.ShowRoomMessage();
-  
-  if (currentRow == 6 && currentColumn == 6)
-    Console.WriteLine("you ded");
 }
